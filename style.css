@@ -35,6 +35,18 @@ body {
   margin: 0 20px;
 }
 
+.container .scared.face {
+  background: linear-gradient(180deg, #288541, #58b557, #ffcd00);
+}
+
+.container .scared.face:before {
+  top: 195px;
+  width: 150px;
+  height: 35px;
+  border-radius: 70px 70px 0 0;
+  background: #5d8c00;
+}
+
 .container .face:hover {
   background: linear-gradient(180deg, #f44336, #f44336, #ffcd00);
 }
