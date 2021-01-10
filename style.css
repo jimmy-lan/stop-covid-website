@@ -38,6 +38,27 @@ body {
   background: linear-gradient(180deg, #f44336, #f44336, #ffcd00);
 }
 
+.container .face:before {
+  content: '';
+  position: absolute;
+  top: 180px;
+  width: 150px;
+  height: 70px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background: #b57700;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .face:hover:before {
+  top: 210px;
+  width: 150px;
+  height: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: #9d0b00;
+}
+
 .container .face .eyes {
   position: relative;
   top: -40px;
